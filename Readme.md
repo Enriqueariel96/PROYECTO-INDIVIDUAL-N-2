@@ -59,7 +59,7 @@ Realizamos el análisis exploratorio de Datos y fuimos recolectando algunos para
 * Calculamos los accidentes mortales respecto a los años 2021 y 2020, calculamos el porcentaje el cual subió. Ese porcentaje nos permitirá jugar con la reducción porcentual de los accidentes teniendo en cuenta las gráficas que presentamos a prestar mayor atención para cumplir el objetivo. Esto es, el flujo de accidentes fatales según años y meses, la relación de las víctimas fatales de motociclistas de otras víctimas, los principales acusados de las vícitmas de motos, género que sabíamos por el EDA que eran mayoría masculinos y edad que sabíamos por el EDA que estaba entre los 25 y 45 años en su mayoría.
 
 <div style="text-align: center;">
-    <img src="DASHBOARD\\KPI 2 Siniestros motos.jpg" alt="Texto alternativo" style="width:1000px; height:500px;">
+    <img src="DASHBOARD\\KPI 2 Siniestros Motos.jpg" alt="Texto alternativo" style="width:1000px; height:500px;">
 </div>
 
 ## Reducir accidentes según Comunas
