@@ -1,0 +1,35 @@
+-- Crear la base de datos
+CREATE DATABASE PowerBI_homicidios;
+USE PowerBI_homicidios;
+
+-- Crear la tabla hechos_def
+CREATE TABLE hechos_def (
+    ID VARCHAR(255),
+    N_VICTIMAS INT,
+    FECHA DATE,
+    AAAA INT,
+    HH VARCHAR(255),
+    LUGAR_DEL_HECHO VARCHAR(255),
+    TIPO_DE_CALLE VARCHAR(255),
+    CALLE VARCHAR(255),
+    COMUNA VARCHAR(255),
+    `POS X` VARCHAR(255),
+    `POS Y` VARCHAR(255),
+    VICTIMA VARCHAR(255),
+    ACUSADO VARCHAR(255)
+);
+
+-- Crear la tabla victimas_def
+CREATE TABLE victimas_def (
+    ID_HECHO VARCHAR(255),
+    FECHA DATE,
+    ROL VARCHAR(255),
+    SEXO VARCHAR(255),
+    EDAD VARCHAR(255),
+    FECHA_FALLECIMIENTO VARCHAR(255),
+    GEN_BIN VARCHAR(255),
+    AAAA INT,
+    MES INT,
+    AÑO_FALLECIMIENTO VARCHAR(255),
+    MES_FALLECIMIENTO VARCHAR(255)
+);
